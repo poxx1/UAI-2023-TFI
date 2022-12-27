@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UAI-2023-TFI", "UAI-2023-TFI\", "{DFADA2E1-47A7-47E7-AE44-D491FC3361AF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63876"
+		Debug.AspNetCompiler.PhysicalPath = "UAI-2023-TFI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63876\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63876"
+		Release.AspNetCompiler.PhysicalPath = "UAI-2023-TFI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63876\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63876"
+		SlnRelativePath = "UAI-2023-TFI\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{4FCE1755-6376-427E-905E-ADD71767929E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{40F27E8E-90CA-49B0-BBF5-3E5BDF525B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{506A63D7-C728-4090-AE66-93B6994EE43F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFADA2E1-47A7-47E7-AE44-D491FC3361AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFADA2E1-47A7-47E7-AE44-D491FC3361AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFADA2E1-47A7-47E7-AE44-D491FC3361AF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFADA2E1-47A7-47E7-AE44-D491FC3361AF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4FCE1755-6376-427E-905E-ADD71767929E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCE1755-6376-427E-905E-ADD71767929E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCE1755-6376-427E-905E-ADD71767929E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCE1755-6376-427E-905E-ADD71767929E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F27E8E-90CA-49B0-BBF5-3E5BDF525B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F27E8E-90CA-49B0-BBF5-3E5BDF525B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F27E8E-90CA-49B0-BBF5-3E5BDF525B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F27E8E-90CA-49B0-BBF5-3E5BDF525B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506A63D7-C728-4090-AE66-93B6994EE43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506A63D7-C728-4090-AE66-93B6994EE43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506A63D7-C728-4090-AE66-93B6994EE43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506A63D7-C728-4090-AE66-93B6994EE43F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3177F8E4-06F0-48A8-8072-A13A21352763}
+	EndGlobalSection
+EndGlobal
